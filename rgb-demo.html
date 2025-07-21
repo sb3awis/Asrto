@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>GeniusBot-Ultra RGB Demo</title>
+  <style>
+    body {
+      background: #222;
+      color: #fff;
+      font-family: 'Cairo', Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .logo {
+      margin-top: 40px;
+    }
+    .rgb-title {
+      font-size: 3em;
+      font-weight: bold;
+      margin-top: 30px;
+      background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #ff0000);
+      background-size: 400% 400%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      animation: rgb-move 4s linear infinite;
+    }
+    @keyframes rgb-move {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    .desc {
+      margin-top: 22px;
+      font-size: 1.15em;
+      color: #bbb;
+      direction: rtl;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img width="180px" src="https://i.ibb.co/dJc2XHc/geniusbot-ultra-logo.png" alt="GeniusBot Ultra Logo"/>
+  </div>
+  <div class="rgb-title">GeniusBot-Ultra</div>
+  <div class="desc">
+    بوت عبقري متعدد الوظائف لمنصات التواصل.<br>
+    شاهد تأثير خطوط RGB المتغيرة مباشرة!
+  </div>
+</body>
+</html>
